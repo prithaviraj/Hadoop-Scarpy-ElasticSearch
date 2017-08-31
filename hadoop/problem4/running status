@@ -1,0 +1,68 @@
+hs mapper.py reducer.py myinput myoutput3
+packageJobJar: [mapper.py, reducer.py, /tmp/hadoop-training/hadoop-unjar4319910203204189333/] [] /tmp/streamjob5327976090388659550.jar tmpDir=null
+17/05/15 20:51:13 WARN mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+17/05/15 20:51:14 WARN snappy.LoadSnappy: Snappy native library is available
+17/05/15 20:51:14 INFO snappy.LoadSnappy: Snappy native library loaded
+17/05/15 20:51:14 INFO mapred.FileInputFormat: Total input paths to process : 1
+17/05/15 20:51:14 INFO streaming.StreamJob: getLocalDirs(): [/var/lib/hadoop-hdfs/cache/training/mapred/local]
+17/05/15 20:51:14 INFO streaming.StreamJob: Running job: job_201705152041_0002
+17/05/15 20:51:14 INFO streaming.StreamJob: To kill this job, run:
+17/05/15 20:51:14 INFO streaming.StreamJob: UNDEF/bin/hadoop job  -Dmapred.job.tracker=0.0.0.0:8021 -kill job_201705152041_0002
+17/05/15 20:51:14 INFO streaming.StreamJob: Tracking URL: http://0.0.0.0:50030/jobdetails.jsp?jobid=job_201705152041_0002
+17/05/15 20:51:15 INFO streaming.StreamJob:  map 0%  reduce 0%
+17/05/15 20:51:28 INFO streaming.StreamJob:  map 6%  reduce 0%
+17/05/15 20:51:31 INFO streaming.StreamJob:  map 10%  reduce 0%
+17/05/15 20:51:34 INFO streaming.StreamJob:  map 13%  reduce 0%
+17/05/15 20:51:37 INFO streaming.StreamJob:  map 16%  reduce 0%
+17/05/15 20:51:40 INFO streaming.StreamJob:  map 20%  reduce 0%
+17/05/15 20:51:43 INFO streaming.StreamJob:  map 23%  reduce 0%
+17/05/15 20:51:46 INFO streaming.StreamJob:  map 24%  reduce 0%
+17/05/15 20:51:47 INFO streaming.StreamJob:  map 25%  reduce 0%
+17/05/15 20:52:05 INFO streaming.StreamJob:  map 27%  reduce 8%
+17/05/15 20:52:06 INFO streaming.StreamJob:  map 29%  reduce 8%
+17/05/15 20:52:08 INFO streaming.StreamJob:  map 31%  reduce 8%
+17/05/15 20:52:09 INFO streaming.StreamJob:  map 33%  reduce 8%
+17/05/15 20:52:12 INFO streaming.StreamJob:  map 37%  reduce 8%
+17/05/15 20:52:15 INFO streaming.StreamJob:  map 40%  reduce 8%
+17/05/15 20:52:18 INFO streaming.StreamJob:  map 43%  reduce 8%
+17/05/15 20:52:21 INFO streaming.StreamJob:  map 46%  reduce 8%
+17/05/15 20:52:24 INFO streaming.StreamJob:  map 48%  reduce 8%
+17/05/15 20:52:27 INFO streaming.StreamJob:  map 50%  reduce 8%
+17/05/15 20:52:34 INFO streaming.StreamJob:  map 50%  reduce 17%
+17/05/15 20:52:42 INFO streaming.StreamJob:  map 52%  reduce 17%
+17/05/15 20:52:43 INFO streaming.StreamJob:  map 55%  reduce 17%
+17/05/15 20:52:45 INFO streaming.StreamJob:  map 57%  reduce 17%
+17/05/15 20:52:46 INFO streaming.StreamJob:  map 59%  reduce 17%
+17/05/15 20:52:48 INFO streaming.StreamJob:  map 60%  reduce 17%
+17/05/15 20:52:49 INFO streaming.StreamJob:  map 62%  reduce 17%
+17/05/15 20:52:51 INFO streaming.StreamJob:  map 63%  reduce 17%
+17/05/15 20:52:52 INFO streaming.StreamJob:  map 64%  reduce 17%
+17/05/15 20:52:54 INFO streaming.StreamJob:  map 66%  reduce 17%
+17/05/15 20:52:56 INFO streaming.StreamJob:  map 69%  reduce 17%
+17/05/15 20:52:57 INFO streaming.StreamJob:  map 71%  reduce 17%
+17/05/15 20:52:59 INFO streaming.StreamJob:  map 72%  reduce 17%
+17/05/15 20:53:01 INFO streaming.StreamJob:  map 74%  reduce 17%
+17/05/15 20:53:02 INFO streaming.StreamJob:  map 75%  reduce 17%
+17/05/15 20:53:06 INFO streaming.StreamJob:  map 75%  reduce 21%
+17/05/15 20:53:09 INFO streaming.StreamJob:  map 75%  reduce 25%
+17/05/15 20:53:15 INFO streaming.StreamJob:  map 78%  reduce 25%
+17/05/15 20:53:17 INFO streaming.StreamJob:  map 84%  reduce 25%
+17/05/15 20:53:18 INFO streaming.StreamJob:  map 86%  reduce 25%
+17/05/15 20:53:20 INFO streaming.StreamJob:  map 89%  reduce 25%
+17/05/15 20:53:21 INFO streaming.StreamJob:  map 91%  reduce 25%
+17/05/15 20:53:23 INFO streaming.StreamJob:  map 94%  reduce 25%
+17/05/15 20:53:24 INFO streaming.StreamJob:  map 95%  reduce 25%
+17/05/15 20:53:26 INFO streaming.StreamJob:  map 96%  reduce 25%
+17/05/15 20:53:27 INFO streaming.StreamJob:  map 98%  reduce 25%
+17/05/15 20:53:30 INFO streaming.StreamJob:  map 100%  reduce 29%
+17/05/15 20:53:36 INFO streaming.StreamJob:  map 100%  reduce 33%
+17/05/15 20:53:42 INFO streaming.StreamJob:  map 100%  reduce 69%
+17/05/15 20:53:45 INFO streaming.StreamJob:  map 100%  reduce 73%
+17/05/15 20:53:48 INFO streaming.StreamJob:  map 100%  reduce 79%
+17/05/15 20:53:51 INFO streaming.StreamJob:  map 100%  reduce 86%
+17/05/15 20:53:54 INFO streaming.StreamJob:  map 100%  reduce 92%
+17/05/15 20:53:57 INFO streaming.StreamJob:  map 100%  reduce 99%
+17/05/15 20:53:59 INFO streaming.StreamJob:  map 100%  reduce 100%
+17/05/15 20:54:01 INFO streaming.StreamJob: Job complete: job_201705152041_0002
+17/05/15 20:54:01 INFO streaming.StreamJob: Output: myoutput3
+
