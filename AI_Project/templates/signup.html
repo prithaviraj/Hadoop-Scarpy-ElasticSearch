@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+	{% if title %}
+        <title>{{title}}</title>
+    {% else %}
+         <title>My project</title>
+	{% endif %}
+
+<link rel="stylesheet" href="{{ url_for('static',filename='main.css') }}">
+</head>
+<html>
+<body>
+<div class="login-page">
+  <div class="form">
+    <form class="login-form" action="/signup" method="POST" >
+      <input type="text" placeholder="username" name="username" value={{request.form.username}} >
+      <input type="password" placeholder="password" name="password" value={{request.form.password}} >
+      <input type="text" placeholder="mail" name="mail" value={{request.form.mail}}>
+      <button>login</button>
+      <p class="message">Already registered? <a href="/login">Sign In</a></p>
+      {% if status %}
+        <div class="warningMsg" >user already exist  </div><br>
+    {% endif %}
+
+    {% if success %}
+        <div class="successMsg">sign up successfully   </div><br>
+    {% endif %}
+    </form>
+  </div>
+</div>
+</body>
+</html>
+
+
+
